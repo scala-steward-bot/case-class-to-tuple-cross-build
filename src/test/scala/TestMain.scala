@@ -14,6 +14,8 @@ object TestMain {
     a: (Int, String)
     b: (Boolean, List[Boolean], Option[Boolean])
 
+    Tupled.tupled[A]
+
     println(a)
     println(b)
   }
