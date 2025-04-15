@@ -1,5 +1,5 @@
 def Scala213 = "2.13.16"
-def Scala3 = "3.0.0"
+def Scala3 = "3.0.2"
 
 scalaVersion := Scala213
 
