@@ -14,6 +14,6 @@ jobs:
       with:
         java-version: 17
         distribution: temurin
-    - uses: coursier/cache-action@v8
+    - uses: coursier/cache-action@v9
     - run: curl -Ls https://git.io/sbt > ./sbt && chmod 0755 ./sbt
     - run: ./sbt -v "+ Test/run"
